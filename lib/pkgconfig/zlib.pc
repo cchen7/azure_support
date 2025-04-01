@@ -1,0 +1,13 @@
+prefix=/Users/chenxin/Documents/code/azure_support
+exec_prefix=/Users/chenxin/Documents/code/azure_support
+libdir=/Users/chenxin/Documents/code/azure_support/lib
+sharedlibdir=/Users/chenxin/Documents/code/azure_support/lib
+includedir=/Users/chenxin/Documents/code/azure_support/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
